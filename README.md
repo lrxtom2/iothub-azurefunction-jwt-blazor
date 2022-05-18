@@ -1,6 +1,6 @@
 # Build serverless, full stack App from IoT to Blazor in Azure native
 
-Integrate with Azure demo about IoT temperature monitor platform，only a .Net programer can go though the development process. Host Azure Function OpenApi with JWT authorization integrate with Blazor WebAssembly as frontend.
+Integrate with Azure demo about IoT temperature monitor platform, only a .Net programer can go though the development process. Host Azure Function OpenApi with JWT authorization integrate with Blazor WebAssembly as frontend.
 
 ## Architecture
 

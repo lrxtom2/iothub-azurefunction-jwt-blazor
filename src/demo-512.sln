@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "iot-trigger", "iot-trigger\iot-trigger.csproj", "{063B1BDD-9114-494F-BEFB-7BCB19FAE074}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "func-openapi", "func-openapi\func-openapi.csproj", "{3D87694F-556D-401B-847B-3191C0E3F05A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "temperature.frontend.Client", "temperature.frontend\Client\temperature.frontend.Client.csproj", "{D2EC9357-DD4A-4943-95CB-F5BC0A8CA2BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "temperature.frontend.Shared", "temperature.frontend\Shared\temperature.frontend.Shared.csproj", "{D89B1251-FDC1-41AD-909C-C73C4CFCE632}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{063B1BDD-9114-494F-BEFB-7BCB19FAE074}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{063B1BDD-9114-494F-BEFB-7BCB19FAE074}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{063B1BDD-9114-494F-BEFB-7BCB19FAE074}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{063B1BDD-9114-494F-BEFB-7BCB19FAE074}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D87694F-556D-401B-847B-3191C0E3F05A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D87694F-556D-401B-847B-3191C0E3F05A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D87694F-556D-401B-847B-3191C0E3F05A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D87694F-556D-401B-847B-3191C0E3F05A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2EC9357-DD4A-4943-95CB-F5BC0A8CA2BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2EC9357-DD4A-4943-95CB-F5BC0A8CA2BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2EC9357-DD4A-4943-95CB-F5BC0A8CA2BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2EC9357-DD4A-4943-95CB-F5BC0A8CA2BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D89B1251-FDC1-41AD-909C-C73C4CFCE632}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D89B1251-FDC1-41AD-909C-C73C4CFCE632}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D89B1251-FDC1-41AD-909C-C73C4CFCE632}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D89B1251-FDC1-41AD-909C-C73C4CFCE632}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {42E02F27-B47A-453D-BBF6-ADAACB5B5978}
+	EndGlobalSection
+EndGlobal
